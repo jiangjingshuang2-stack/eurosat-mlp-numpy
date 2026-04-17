@@ -1,0 +1,6 @@
+# Runtime dependencies for the NumPy MLP EuroSAT homework.
+# Tested with Python 3.11; Python 3.9+ should also work.
+
+numpy>=1.23,<3.0
+Pillow>=9.0,<12.0
+matplotlib>=3.6,<4.0

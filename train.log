@@ -1,0 +1,116 @@
+nohup: ignoring input
+Loading dataset...
+=== EuroSAT Dataset Summary ===
+Root dir: /root/Test/jiangjingshuang/hw1/EuroSAT_RGB
+Num classes: 10
+Classes:
+  0 -> AnnualCrop
+  1 -> Forest
+  2 -> HerbaceousVegetation
+  3 -> Highway
+  4 -> Industrial
+  5 -> Pasture
+  6 -> PermanentCrop
+  7 -> Residential
+  8 -> River
+  9 -> SeaLake
+===============================
+Full dataset shape: (27000, 3072) (27000,)
+Applied standardization using training-set mean and std.
+Train: (18900, 3072) (18900,)
+Val:   (4050, 3072) (4050,)
+Test:  (4050, 3072) (4050,)
+MLP(input_dim=3072, hidden_dim1=256, hidden_dim2=128, num_classes=10, activation='relu')
+Epoch [01/50] | lr=0.010000 | train_loss=1.5417 | train_acc=0.4417 | val_loss=1.3741 | val_acc=0.4854
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.4854)
+Epoch [02/50] | lr=0.009500 | train_loss=1.2207 | train_acc=0.5615 | val_loss=1.2629 | val_acc=0.5279
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.5279)
+Epoch [03/50] | lr=0.009025 | train_loss=1.1074 | train_acc=0.6076 | val_loss=1.1987 | val_acc=0.5565
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.5565)
+Epoch [04/50] | lr=0.008574 | train_loss=1.0293 | train_acc=0.6389 | val_loss=1.1494 | val_acc=0.5709
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.5709)
+Epoch [05/50] | lr=0.008145 | train_loss=0.9688 | train_acc=0.6610 | val_loss=1.1243 | val_acc=0.5825
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.5825)
+Epoch [06/50] | lr=0.007738 | train_loss=0.9188 | train_acc=0.6811 | val_loss=1.0965 | val_acc=0.5926
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.5926)
+Epoch [07/50] | lr=0.007351 | train_loss=0.8747 | train_acc=0.6989 | val_loss=1.0762 | val_acc=0.6074
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6074)
+Epoch [08/50] | lr=0.006983 | train_loss=0.8362 | train_acc=0.7165 | val_loss=1.0586 | val_acc=0.6153
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6153)
+Epoch [09/50] | lr=0.006634 | train_loss=0.8017 | train_acc=0.7289 | val_loss=1.0444 | val_acc=0.6240
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6240)
+Epoch [10/50] | lr=0.006302 | train_loss=0.7706 | train_acc=0.7420 | val_loss=1.0352 | val_acc=0.6304
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6304)
+Epoch [11/50] | lr=0.005987 | train_loss=0.7422 | train_acc=0.7544 | val_loss=1.0267 | val_acc=0.6336
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6336)
+Epoch [12/50] | lr=0.005688 | train_loss=0.7166 | train_acc=0.7637 | val_loss=1.0185 | val_acc=0.6326
+Epoch [13/50] | lr=0.005404 | train_loss=0.6931 | train_acc=0.7725 | val_loss=1.0122 | val_acc=0.6375
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6375)
+Epoch [14/50] | lr=0.005133 | train_loss=0.6715 | train_acc=0.7804 | val_loss=1.0075 | val_acc=0.6405
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6405)
+Epoch [15/50] | lr=0.004877 | train_loss=0.6516 | train_acc=0.7889 | val_loss=1.0049 | val_acc=0.6435
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6435)
+Epoch [16/50] | lr=0.004633 | train_loss=0.6332 | train_acc=0.7960 | val_loss=1.0010 | val_acc=0.6472
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6472)
+Epoch [17/50] | lr=0.004401 | train_loss=0.6160 | train_acc=0.8034 | val_loss=0.9990 | val_acc=0.6486
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6486)
+Epoch [18/50] | lr=0.004181 | train_loss=0.6003 | train_acc=0.8098 | val_loss=0.9973 | val_acc=0.6491
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6491)
+Epoch [19/50] | lr=0.003972 | train_loss=0.5855 | train_acc=0.8158 | val_loss=0.9947 | val_acc=0.6491
+Epoch [20/50] | lr=0.003774 | train_loss=0.5719 | train_acc=0.8207 | val_loss=0.9941 | val_acc=0.6516
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6516)
+Epoch [21/50] | lr=0.003585 | train_loss=0.5594 | train_acc=0.8266 | val_loss=0.9928 | val_acc=0.6538
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6538)
+Epoch [22/50] | lr=0.003406 | train_loss=0.5475 | train_acc=0.8305 | val_loss=0.9918 | val_acc=0.6546
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6546)
+Epoch [23/50] | lr=0.003235 | train_loss=0.5366 | train_acc=0.8351 | val_loss=0.9903 | val_acc=0.6575
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6575)
+Epoch [24/50] | lr=0.003074 | train_loss=0.5265 | train_acc=0.8385 | val_loss=0.9901 | val_acc=0.6570
+Epoch [25/50] | lr=0.002920 | train_loss=0.5169 | train_acc=0.8420 | val_loss=0.9894 | val_acc=0.6575
+Epoch [26/50] | lr=0.002774 | train_loss=0.5081 | train_acc=0.8456 | val_loss=0.9889 | val_acc=0.6585
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6585)
+Epoch [27/50] | lr=0.002635 | train_loss=0.4998 | train_acc=0.8489 | val_loss=0.9883 | val_acc=0.6595
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6595)
+Epoch [28/50] | lr=0.002503 | train_loss=0.4921 | train_acc=0.8518 | val_loss=0.9877 | val_acc=0.6600
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6600)
+Epoch [29/50] | lr=0.002378 | train_loss=0.4849 | train_acc=0.8544 | val_loss=0.9878 | val_acc=0.6605
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6605)
+Epoch [30/50] | lr=0.002259 | train_loss=0.4781 | train_acc=0.8572 | val_loss=0.9875 | val_acc=0.6607
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6607)
+Epoch [31/50] | lr=0.002146 | train_loss=0.4718 | train_acc=0.8593 | val_loss=0.9868 | val_acc=0.6612
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6612)
+Epoch [32/50] | lr=0.002039 | train_loss=0.4657 | train_acc=0.8614 | val_loss=0.9869 | val_acc=0.6615
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6615)
+Epoch [33/50] | lr=0.001937 | train_loss=0.4602 | train_acc=0.8638 | val_loss=0.9869 | val_acc=0.6617
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6617)
+Epoch [34/50] | lr=0.001840 | train_loss=0.4549 | train_acc=0.8657 | val_loss=0.9868 | val_acc=0.6605
+Epoch [35/50] | lr=0.001748 | train_loss=0.4499 | train_acc=0.8680 | val_loss=0.9867 | val_acc=0.6602
+Epoch [36/50] | lr=0.001661 | train_loss=0.4452 | train_acc=0.8701 | val_loss=0.9871 | val_acc=0.6605
+Epoch [37/50] | lr=0.001578 | train_loss=0.4408 | train_acc=0.8715 | val_loss=0.9873 | val_acc=0.6615
+Epoch [38/50] | lr=0.001499 | train_loss=0.4368 | train_acc=0.8731 | val_loss=0.9874 | val_acc=0.6605
+Epoch [39/50] | lr=0.001424 | train_loss=0.4329 | train_acc=0.8749 | val_loss=0.9875 | val_acc=0.6620
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6620)
+Epoch [40/50] | lr=0.001353 | train_loss=0.4292 | train_acc=0.8759 | val_loss=0.9877 | val_acc=0.6617
+Epoch [41/50] | lr=0.001285 | train_loss=0.4257 | train_acc=0.8771 | val_loss=0.9880 | val_acc=0.6627
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6627)
+Epoch [42/50] | lr=0.001221 | train_loss=0.4224 | train_acc=0.8786 | val_loss=0.9881 | val_acc=0.6635
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6635)
+Epoch [43/50] | lr=0.001160 | train_loss=0.4194 | train_acc=0.8797 | val_loss=0.9883 | val_acc=0.6642
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6642)
+Epoch [44/50] | lr=0.001102 | train_loss=0.4165 | train_acc=0.8808 | val_loss=0.9885 | val_acc=0.6652
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6652)
+Epoch [45/50] | lr=0.001047 | train_loss=0.4137 | train_acc=0.8816 | val_loss=0.9887 | val_acc=0.6657
+  -> Best model saved to /root/Test/jiangjingshuang/hw1/main/outputs/checkpoints/best_model.npz (val_acc=0.6657)
+Epoch [46/50] | lr=0.000994 | train_loss=0.4111 | train_acc=0.8823 | val_loss=0.9891 | val_acc=0.6654
+Epoch [47/50] | lr=0.000945 | train_loss=0.4086 | train_acc=0.8828 | val_loss=0.9894 | val_acc=0.6654
+Epoch [48/50] | lr=0.000897 | train_loss=0.4063 | train_acc=0.8834 | val_loss=0.9898 | val_acc=0.6654
+Epoch [49/50] | lr=0.000853 | train_loss=0.4041 | train_acc=0.8842 | val_loss=0.9901 | val_acc=0.6657
+Epoch [50/50] | lr=0.000810 | train_loss=0.4020 | train_acc=0.8850 | val_loss=0.9903 | val_acc=0.6652
+
+Training history saved to: /root/Test/jiangjingshuang/hw1/main/outputs/logs/train_history.json
+Training curves saved to: /root/Test/jiangjingshuang/hw1/main/outputs/curves
+
+Loading best model for final evaluation on test set...
+Best validation accuracy: 0.6657
+Test loss: 1.0144
+Test accuracy: 0.6602
