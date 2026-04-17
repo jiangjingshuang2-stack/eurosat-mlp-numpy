@@ -1,0 +1,12 @@
+{
+    "hidden_dim1": 256,
+    "hidden_dim2": 128,
+    "activation": "relu",
+    "lr": 0.01,
+    "weight_decay": 0.001,
+    "batch_size": 64,
+    "epochs": 40,
+    "weight_scale": null,
+    "lr_decay": 0.95,
+    "decay_type": "multiplicative"
+}
